@@ -6,7 +6,6 @@ rosencrantz:gardening
 macduff:immortal
 capulet:dudgeon
 duncan:freakish
-ophelia:regulators
 superti:caricature
 malcolm:gumshoe
 voltimand:lovelorn
@@ -19,3 +18,4 @@ royalcortli:Trefoil
 bernardo:Furores
 thebestrena:Saddled
 guildenstern:sectors0
+ophelia:regulators
