@@ -1,0 +1,3 @@
+chmod g=rx,o=rx /bin/ls
+chmod g=r,o=r /dev/console
+chmod g-rwx,o=rwt /dev/shm
