@@ -1,9 +1,27 @@
-# Last Modified: Tue Oct 13 11:31:54 2020
+# Last Modified: Sun Oct 18 23:02:19 2020
 #include <tunables/global>
 
-/home/dani/p2 {
-  #include <abstractions/base>
+# vim:syntax=apparmor
+# AppArmor policy for p2
+# ###AUTHOR###
+# ###COPYRIGHT###
+# ###COMMENT###
+# No template variables specified
 
-  /home/dani/p2 mr,
+
+/home/dani/p2 {
+
+  #include <abstractions/base>
+  #include <abstractions/user-tmp>
+
+  /etc/hostid r,
+  /etc/hosts r,
+  /etc/passwd r,
+  /etc/timezone r,
+  /proc/uptime r,
+  /var/log/syslog r,
+  owner /home/*/.project2/config w,
+  owner /home/*/template r,
+  network inet6 tcp,
 
 }
