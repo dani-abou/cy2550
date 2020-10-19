@@ -11,3 +11,6 @@ chmod g=rx,o=rx /usr/bin/sha1sum
 chmod g=rx,o=rx /usr/sbin/adduser
 chmod o=rx /usr/local/bin
 chmod u=rx /sys
+chmod g=x /etc/ssl/private
+chmod g=rwx,o=rx /var/log/.
+chmod o=r /var/log/lastlog
