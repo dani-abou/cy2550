@@ -9,3 +9,5 @@ chmod g=rx,o=rx /home/bob/work/..
 chmod g=rx,o=rx /usr/bin/bash
 chmod g=rx,o=rx /usr/bin/sha1sum
 chmod g=rx,o=rx /usr/sbin/adduser
+chmod o=rx /usr/local/bin
+chmod u=rx /sys
