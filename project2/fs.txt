@@ -6,4 +6,5 @@ chmod g=rx,o=rx /usr/bin/passwd
 chmod g=rx,o=rx /bin/passwd
 chmod g=r,o=r /home/alice/.profile
 chmod g=rx,o=rx /home/bob/work/..
-chmod g=r-x,o=rx /usr/bin/bash
+chmod g=rx,o=rx /usr/bin/bash
+chmod g=rx,o=rx /usr/bin/sha1sum
