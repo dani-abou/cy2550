@@ -20,8 +20,10 @@
   /etc/timezone r,
   /proc/uptime r,
   /var/log/syslog r,
-  owner /home/*/.project2/config w,
-  owner /home/*/template r,
-  network inet6 tcp,
+  owner /home/dani/.project2/config w,
+  owner /home/dani/template r,
+  network inet tcp,
+deny @{PROC}/meminfo r,
+deny @{PROC}/stat r,
 
 }
